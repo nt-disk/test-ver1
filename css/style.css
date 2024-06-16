@@ -1,0 +1,64 @@
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 200vh;
+}
+
+
+.header {
+  height: 100vh;
+  /* background-image: url(../img/main-visual.webp); */
+}
+
+.header__top {
+  display: flex;
+  /* align-items: top; */
+  justify-content: space-between;
+  /* display: none; */
+}
+
+
+
+.logo__group {
+  background-color: #fff;
+  height: 100px;
+  width: 100px; 
+}
+
+.header__logo {
+
+}
+
+.header__square {
+
+}
+
+.header__right {
+  height: 100px;
+  width: 200px;
+  background-color: #fff;
+
+}
+
+.header__visual {
+  height: 100vh;
+}
+
+.header__visual img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about {
+
+}
+
